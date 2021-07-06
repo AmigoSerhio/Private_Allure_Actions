@@ -7,13 +7,13 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "children" : [ {
         "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "7a24940712f751b5",
+        "uid" : "a502a51115b1f40b",
         "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
         "status" : "failed",
         "time" : {
-          "start" : 1625560460628,
-          "stop" : 1625560479840,
-          "duration" : 19212
+          "start" : 1625638490060,
+          "stop" : 1625638513953,
+          "duration" : 23893
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "children" : [ {
         "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-        "uid" : "8454ec36eaa63f9e",
+        "uid" : "68e4404272b630c8",
         "parentUid" : "e7d82dde821b3d27a8a06657f957bf38",
         "status" : "failed",
         "time" : {
-          "start" : 1625560479840,
-          "stop" : 1625560493139,
-          "duration" : 13299
+          "start" : 1625638513954,
+          "stop" : 1625638527860,
+          "duration" : 13906
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join?plan\"\n                Received: \"https://github.com/pricing\"",
       "children" : [ {
         "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
-        "uid" : "dbf8b8700df44557",
+        "uid" : "caf68da151eb88b4",
         "parentUid" : "01d2a65662448fe300aba74edb876e9c",
         "status" : "failed",
         "time" : {
-          "start" : 1625560512719,
-          "stop" : 1625560526058,
-          "duration" : 13339
+          "start" : 1625638547590,
+          "stop" : 1625638561035,
+          "duration" : 13445
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "Can't call click on element with selector \"//header//summary//span[2]\" because element wasn't found",
       "children" : [ {
         "name" : "should test SignIn function . Test-Case3",
-        "uid" : "ed618e4d14284e73",
+        "uid" : "c6663f347ef21c6d",
         "parentUid" : "42e5fcf85f9163052dc9f1cace6fbc75",
         "status" : "broken",
         "time" : {
-          "start" : 1625560493139,
-          "stop" : 1625560506312,
-          "duration" : 13173
+          "start" : 1625638527860,
+          "stop" : 1625638541044,
+          "duration" : 13184
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,19 +79,53 @@
       "name" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "children" : [ {
         "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "c88916c9f7904d80",
+        "uid" : "3c4cb6e9c9a6af06",
         "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
         "status" : "broken",
         "time" : {
-          "start" : 1625560509873,
-          "stop" : 1625560512718,
-          "duration" : 2845
+          "start" : 1625638544698,
+          "stop" : 1625638547590,
+          "duration" : 2892
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-91.0.4472.124" ]
       } ],
       "uid" : "9b2c0d069517656b6d377e24fb6e5867"
+    }, {
+      "name" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
+      "children" : [ {
+        "name" : "should check that is Topic text displayed in view port . Test-Case7",
+        "uid" : "bb3ea31683a8c35e",
+        "parentUid" : "c49c8191024c2efc435c3a24e49a4856",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625638561035,
+          "stop" : 1625638563359,
+          "duration" : 2324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.124" ]
+      } ],
+      "uid" : "c49c8191024c2efc435c3a24e49a4856"
+    }, {
+      "name" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
+        "uid" : "488b5115bed1212d",
+        "parentUid" : "21b54828d05b3ba81bbe2642bf9bebc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625638567565,
+          "stop" : 1625638580353,
+          "duration" : 12788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.124" ]
+      } ],
+      "uid" : "21b54828d05b3ba81bbe2642bf9bebc7"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
