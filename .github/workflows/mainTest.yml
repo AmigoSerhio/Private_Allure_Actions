@@ -21,7 +21,7 @@ jobs:
        # run: npm run allure:generate_run
       - name: Create Report
       if: always()
-        run: npm run report
+        run: npm run allure:generate 
         uses: actions/upload-artifact@v1
 
         if: always()
