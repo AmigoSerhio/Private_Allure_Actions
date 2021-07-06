@@ -8,7 +8,6 @@
     "report": "allure generate",
     "allure:generate": "npx allure generate allure-results --clean",
     "allure:generate_run": "npx allure generate allure-results --clean && npx allure open"
-
   },
   "keywords": [],
   "author": "",

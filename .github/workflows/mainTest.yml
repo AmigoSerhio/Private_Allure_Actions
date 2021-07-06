@@ -18,8 +18,9 @@ jobs:
         run: npm run test
       - name: Create Report
         if: always()
-        run: npm run report 
-      - uses: actions/upload-artifact@v1
+        run: npm run report
+      - name: Publishing Allure artifact to Github Actions
+        uses: actions/upload-artifact@v1
         if: always()
         with:
           name: allure-report
