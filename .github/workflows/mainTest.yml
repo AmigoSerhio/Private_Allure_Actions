@@ -1,111 +1,38 @@
-name: Main Github Actions
+name: My first Actions
 on:
   push:
     branches:
       - 'master'
-  schedule:
-      - cron: '0 4 * * 0/3' #Tue-Fri at 7.00am EEST. #EEST = UTC + 3
 
 jobs:
-  ta_suit:
+  tests:
       runs-on: ubuntu-20.04
       steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '12'
-      - run: npm ci
-#      - run: npm config set script-shell "C:\Program Files\Git\bin\bash.exe"
-      - name: Run tests as test:chrome:headless:stage:ta
-        run: npm run test:chrome:headless:stage:ta || npm run test:chrome:headless:stage:ta
-      - name: Generate allure-report
-        if: always()
-        run: npm run allure:generate
-      - name: Publishing Allure artifact to Github Actions
-        uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: allure-report-ta
-          path: allure-report
-  instructor_suit:
-      runs-on: ubuntu-18.04
-      steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
-      - run: npm ci
-      - name: Run tests as test:chrome:headless:stage:instructor
-        run: npm run test:chrome:headless:stage:instructor || npm run test:chrome:headless:stage:instructor
-      - name: Generate allure-report
-        if: always()
-        run: npm run allure:generate
-      - name: Publishing Allure artifact to Github Actions
-        uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: allure-report-instructor
-          path: allure-report
-  superuser_suit:
-      runs-on: ubuntu-20.04
-#      needs: ta_suit
-      steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
-      - run: npm ci
-#      - run: npm config set script-shell "C:\Program Files\Git\bin\bash.exe"
-      - name: Run tests as test:chrome:headless:stage:superuser
-        run: npm run test:chrome:headless:stage:superuser || npm run test:chrome:headless:stage:superuser
-      - name: Generate allure-report
-        if: always()
-        run: npm run allure:generate
-      - name: Publishing Allure artifact to Github Actions
-        uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: allure-report-superuser
-          path: allure-report
-  student_suit:
-      runs-on: ubuntu-18.04
-#      needs: instructor_suit
-      steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
-      - run: npm ci
-      - name: Run tests as test:chrome:headless:stage:student
-        run: npm run test:chrome:headless:stage:student || npm run test:chrome:headless:stage:student
-      - name: Generate allure-report
-        if: always()
-        run: npm run allure:generate
-      - name: Publishing Allure artifact to Github Actions
-        uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: allure-report-student
-          path: allure-report
-  superuser_posts_suit:
-      runs-on: windows-2019
-      steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
+          node-version: '14'
       - run: npm ci
       - run: npm config set script-shell "C:\Program Files\Git\bin\bash.exe"
-      - name: Run tests as test:chrome:headless:synchronized:stage:superuser
-        run: npm run test:chrome:headless:synchronized:stage:superuser || npm run test:chrome:headless:synchronized:stage:superuser
-      - name: Run tests as test:chrome:headless:synchronized:stage:student
-        run: npm run test:chrome:headless:synchronized:stage:student || npm run test:chrome:headless:synchronized:stage:student
-      - name: Generate allure-report
-        if: always()
-        run: npm run allure:generate
-      - name: Publishing Allure artifact to Github Actions
-        uses: actions/upload-artifact@v2
+      - name: Run all tests
+        run: npm run test
+      #- name: Generate allure-report
+       # if: always()
+       # run: npm run allure:generate_run
+      - name: Create Report
+      if: always()
+        run: cp -r $(pwd)/docs/history/. $()pwd/allure-results/history || true && npm run report
+        uses: actions/upload-artifact@v1
+
         if: always()
         with:
-          name: allure-report-superuser-posts
-          path: allure-report
+          name: allure-report
+          path: ./allure-report
+      - name: Create Report
+        uses: JamesIves/github-pages-deploy-action@3.1.0
+        if: always()
+        with:
+        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+        BRNCH: master
+        FOLDER: allure-report
+        TARGET_FOLDER: docs
