@@ -20,11 +20,12 @@ jobs:
         if: always()
         run: npm run report 
       - uses: actions/upload-artifact@v1
+        if: always()
         with:
           name: allure-report
           path: ./allure-report
       - name: Create Report
-      - uses: JamesIves/github-pages-deploy-action@3.1.0
+        uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with:
           ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
