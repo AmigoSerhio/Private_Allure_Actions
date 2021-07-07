@@ -2,7 +2,7 @@ name: My first Actions
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 jobs:
   tests:
