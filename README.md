@@ -9,6 +9,8 @@ Also it tests some user stories
 
 More details like test-cases I will add later;)
 
+
+
 To run this test-suit you need only have last version of Node.js and Git
  * Download this code or import it (git clone)
  * Navigate to project folder in terminal 
@@ -20,6 +22,9 @@ To run this test-suit you need only have last version of Node.js and Git
  * Change test data (UserName, and user password in the signup.page.js)
  * In the project folder use: 
  
+
+
+
 
 
 
