@@ -1,0 +1,58 @@
+{
+  "uid" : "468669a0bf7bccfe",
+  "name" : " should print in the console all positions from the careers . Test-Case10",
+  "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe. should print in the console all positions from the careers . Test-Case10",
+  "historyId" : "4a8b2361aecfc19b17ced5fa5524d640",
+  "time" : {
+    "start" : 1625679276135,
+    "stop" : 1625679278435,
+    "duration" : 2300
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : " should print in the console all positions from the careers . Test-Case10"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "468669a0bf7bccfe.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
