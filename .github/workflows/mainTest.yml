@@ -2,7 +2,7 @@ name: My first Actions
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   tests:
@@ -30,6 +30,6 @@ jobs:
         if: always()
         with:
           ACCESS_TOKEN: ${{secrets.RIGTS}}
-          BRANCH: main
+          BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
