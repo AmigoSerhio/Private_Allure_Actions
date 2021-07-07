@@ -21,6 +21,8 @@ To run this test-suit you need only have last version of Node.js and Git
  * In the project folder use: 
  
 
+
+
     ```
    npm test
     ```
