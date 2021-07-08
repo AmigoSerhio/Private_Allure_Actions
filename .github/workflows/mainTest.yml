@@ -33,11 +33,15 @@ jobs:
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
         if: always()
+        env:
+         API_TOKEN_GITHUB: ${{ secrets.PERSONAL_TOKEN }}
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: ToActions/HtmlActions
-          publish_branch: main
-          publish_dir: docs
+          source-directory: 'allure-report'
+          destination-github-username: 'ToActions'
+          destination-repository-name: 'HtmlActions'
+          user-email: s.fart2012@gmail.com
+          target-branch: main
+
