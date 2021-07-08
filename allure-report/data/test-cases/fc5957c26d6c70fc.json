@@ -1,21 +1,41 @@
 {
-  "uid" : "50c4e2909b09f2b9",
+  "uid" : "fc5957c26d6c70fc",
   "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
   "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
   "historyId" : "729fff01d5f372a0de52290cec61afa8",
   "time" : {
-    "start" : 1625558765004,
-    "stop" : 1625558767207,
-    "duration" : 2203
+    "start" : 1625730439265,
+    "stop" : 1625730455050,
+    "duration" : 15785
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
-  "statusTrace" : "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                \n                    at MainPage.checkWhyGitHubDropdownMenu (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\test\\pageobjects\\main.page.js:91:13)\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\test\\specs\\gitHubTestHW(Lesson29).js:74:18)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6d30b42657e6245",
+      "name" : "Screenshot",
+      "source" : "c6d30b42657e6245.png",
+      "type" : "image/png",
+      "size" : 750847
+    }, {
+      "uid" : "52a48d2234e8e5de",
+      "name" : "Screenshot",
+      "source" : "52a48d2234e8e5de.png",
+      "type" : "image/png",
+      "size" : 666955
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
@@ -47,12 +67,23 @@
     "value" : "chrome-91.0.4472.124"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "87d57a1689cd8e54",
+      "status" : "broken",
+      "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+      "time" : {
+        "start" : 1625558765004,
+        "stop" : 1625558767207,
+        "duration" : 2203
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "50c4e2909b09f2b9.json",
+  "source" : "fc5957c26d6c70fc.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }

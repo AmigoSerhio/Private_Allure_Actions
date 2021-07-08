@@ -1,12 +1,12 @@
 {
-  "uid" : "52e80715caa18e85",
+  "uid" : "2673effeff4b6aaf",
   "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
   "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that filter TypeScript works and first result is relevant . Test-Case8",
   "historyId" : "880e2411952982115d6406bbf9bb7766",
   "time" : {
-    "start" : 1625558782880,
-    "stop" : 1625558786980,
-    "duration" : 4100
+    "start" : 1625730474004,
+    "stop" : 1625730478058,
+    "duration" : 4054
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -45,12 +45,22 @@
     "value" : "chrome-91.0.4472.124"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ed1a8877bdb3906a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625558782880,
+        "stop" : 1625558786980,
+        "duration" : 4100
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "52e80715caa18e85.json",
+  "source" : "2673effeff4b6aaf.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }

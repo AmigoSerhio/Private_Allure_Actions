@@ -1,12 +1,12 @@
 {
-  "uid" : "55c51ec2a237f8e",
-  "name" : " should print in the console all positions from the careers . Test-Case10",
-  "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe. should print in the console all positions from the careers . Test-Case10",
-  "historyId" : "21e153e13fdceeeabd816421f9a5253",
+  "uid" : "ee0d82616c8a7f52",
+  "name" : "should test Password recowery function . Test-Case4",
+  "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test Password recowery function . Test-Case4",
+  "historyId" : "5b182b45268c63b3a8026cecae5e0766",
   "time" : {
-    "start" : 1625638580354,
-    "stop" : 1625638584999,
-    "duration" : 4645
+    "start" : 1625730435614,
+    "stop" : 1625730439264,
+    "duration" : 3650
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -32,7 +32,7 @@
     "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
   }, {
     "name" : "testMethod",
-    "value" : " should print in the console all positions from the careers . Test-Case10"
+    "value" : "should test Password recowery function . Test-Case4"
   }, {
     "name" : "package",
     "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
@@ -50,17 +50,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "6dd0af8b14441b65",
+      "uid" : "9cfada5f3af8cc",
       "status" : "passed",
       "time" : {
-        "start" : 1625558799730,
-        "stop" : 1625558802047,
-        "duration" : 2317
+        "start" : 1625558761473,
+        "stop" : 1625558765004,
+        "duration" : 3531
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "55c51ec2a237f8e.json",
+  "source" : "ee0d82616c8a7f52.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }

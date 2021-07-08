@@ -1,38 +1,38 @@
 {
-  "uid" : "68e4404272b630c8",
+  "uid" : "2d012ff6ca748200",
   "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
   "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test SignUp function (using primary SignUp button). Test-Case2",
   "historyId" : "61918d6487c09a61db429ecf350555be",
   "time" : {
-    "start" : 1625638513954,
-    "stop" : 1625638527860,
-    "duration" : 13906
+    "start" : 1625730409253,
+    "stop" : 1625730422460,
+    "duration" : 13207
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "failed",
   "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
-  "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\test\\specs\\gitHubTestHW(Lesson29).js:39:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\test\\specs\\gitHubTestHW(Lesson29).js:39:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
-    "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\test\\specs\\gitHubTestHW(Lesson29).js:39:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\test\\specs\\gitHubTestHW(Lesson29).js:39:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bf05587e21778ddd",
+      "uid" : "c7a818d97133f8ca",
       "name" : "Screenshot",
-      "source" : "bf05587e21778ddd.png",
+      "source" : "c7a818d97133f8ca.png",
       "type" : "image/png",
-      "size" : 181482
+      "size" : 181968
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -70,7 +70,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "60e29bdbd6c96ed7",
+      "uid" : "b4e4dfc8805e0790",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "time" : {
@@ -86,6 +86,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "68e4404272b630c8.json",
+  "source" : "2d012ff6ca748200.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }

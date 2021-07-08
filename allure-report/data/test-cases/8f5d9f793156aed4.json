@@ -1,38 +1,38 @@
 {
-  "uid" : "a502a51115b1f40b",
+  "uid" : "8f5d9f793156aed4",
   "name" : "should test SignUp function (using header button). Test-Case1",
   "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test SignUp function (using header button). Test-Case1",
   "historyId" : "bc697257548a3ec88061e6f0567dedb2",
   "time" : {
-    "start" : 1625638490060,
-    "stop" : 1625638513953,
-    "duration" : 23893
+    "start" : 1625730383527,
+    "stop" : 1625730409252,
+    "duration" : 25725
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "failed",
   "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
-  "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\test\\specs\\gitHubTestHW(Lesson29).js:27:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\test\\specs\\gitHubTestHW(Lesson29).js:27:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
-    "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\test\\specs\\gitHubTestHW(Lesson29).js:27:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled\\HtmlAllure\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\test\\specs\\gitHubTestHW(Lesson29).js:27:25)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled1\\HtmlAllure.github.io\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d604bbffcd8ff8e3",
+      "uid" : "4ac45445b3ef2eb0",
       "name" : "Screenshot",
-      "source" : "d604bbffcd8ff8e3.png",
+      "source" : "4ac45445b3ef2eb0.png",
       "type" : "image/png",
-      "size" : 124456
+      "size" : 124482
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -70,7 +70,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "d77b0e2d45023df5",
+      "uid" : "3ea587495a43c10a",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "time" : {
@@ -86,6 +86,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "a502a51115b1f40b.json",
+  "source" : "8f5d9f793156aed4.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }

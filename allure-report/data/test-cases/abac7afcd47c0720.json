@@ -1,5 +1,5 @@
 {
-  "uid" : "810351bc6426f5ac",
+  "uid" : "abac7afcd47c0720",
   "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
   "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
   "historyId" : "ef0a924e42a3c59a0c72dca6171f9271",
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "810351bc6426f5ac.json",
+  "source" : "abac7afcd47c0720.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }

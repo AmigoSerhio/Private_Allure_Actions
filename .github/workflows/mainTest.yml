@@ -15,7 +15,7 @@ jobs:
       - run: npm ci
       - name: Run all tests
         if: always()
-        run: npm run test
+        run: npm run test:chrome:headless
       - name: Create Report
         if: always()
         run: npm run allure:generate

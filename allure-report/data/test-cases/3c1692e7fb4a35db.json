@@ -1,12 +1,12 @@
 {
-  "uid" : "4fef316ffad90c67",
+  "uid" : "3c1692e7fb4a35db",
   "name" : " homeTask_Lesson_14",
   "fullName" : "Webdriverio_test. homeTask_Lesson_14",
   "historyId" : "befe34121d5c44d14094ed16e09ef4a3",
   "time" : {
-    "start" : 1625638507704,
-    "stop" : 1625638511243,
-    "duration" : 3539
+    "start" : 1625730402091,
+    "stop" : 1625730405664,
+    "duration" : 3573
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,17 +18,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2f8703be2d6ee6c8",
+      "uid" : "6d635d2e9625ce7f",
       "name" : "Screenshot",
-      "source" : "2f8703be2d6ee6c8.png",
+      "source" : "6d635d2e9625ce7f.png",
       "type" : "image/png",
-      "size" : 87721
+      "size" : 88756
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -66,7 +66,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "9d5d44d047f2d411",
+      "uid" : "eb924f0c5e0ff8ba",
       "status" : "passed",
       "time" : {
         "start" : 1625558733216,
@@ -77,6 +77,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4fef316ffad90c67.json",
+  "source" : "3c1692e7fb4a35db.json",
   "parameterValues" : [ "chrome-91.0.4472.124" ]
 }
