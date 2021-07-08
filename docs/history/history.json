@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f4861289ea38e2dd",
+      "uid" : "7a92090368b06dc2",
       "status" : "passed",
       "time" : {
         "start" : 1625558715806,
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a93290f3a6cd70ac",
+      "uid" : "44d027627fa2c1e9",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "time" : {
-        "start" : 1625751659108,
-        "stop" : 1625751675201,
-        "duration" : 16093
+        "start" : 1625754075879,
+        "stop" : 1625754096633,
+        "duration" : 20754
       }
     } ]
   },
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d868a8d34f9b944",
+      "uid" : "faa9c173d28394f4",
       "status" : "passed",
       "time" : {
         "start" : 1625558799730,
@@ -67,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c10c0d9e7096289",
+      "uid" : "861ae56623685206",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "time" : {
@@ -87,7 +87,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99fa1a44c0a24041",
+      "uid" : "45e25c854c8a89fc",
       "status" : "passed",
       "time" : {
         "start" : 1625558733216,
@@ -106,7 +106,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22497cb34281b03f",
+      "uid" : "960dccf1a2a3fc0f",
       "status" : "broken",
       "statusDetails" : "Can't call click on element with selector \"//header//summary//span[2]\" because element wasn't found",
       "time" : {
@@ -126,12 +126,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "adf33857c90d6187",
+      "uid" : "b2a076f1981a52b5",
       "status" : "passed",
       "time" : {
-        "start" : 1625751672835,
-        "stop" : 1625751674960,
-        "duration" : 2125
+        "start" : 1625754089344,
+        "stop" : 1625754091843,
+        "duration" : 2499
       }
     } ]
   },
@@ -145,7 +145,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61b7032e9f133bd9",
+      "uid" : "bafccbd6901374e",
       "status" : "passed",
       "time" : {
         "start" : 1625558782880,
@@ -164,7 +164,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9d169e30bcd9b1a",
+      "uid" : "235c1ae2fc84780",
       "status" : "broken",
       "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "time" : {
@@ -184,7 +184,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d2bb3394b4814b0",
+      "uid" : "ebdf47356c7a2b8a",
       "status" : "broken",
       "statusDetails" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
       "time" : {
@@ -204,7 +204,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10ab8c38091947f2",
+      "uid" : "e43d3f6f32e606fb",
       "status" : "broken",
       "statusDetails" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
       "time" : {
@@ -224,7 +224,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a98ebb26aaf0ef4",
+      "uid" : "67b37a9f17d8498f",
       "status" : "passed",
       "time" : {
         "start" : 1625558761473,
@@ -243,7 +243,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3cec2cfafae43281",
+      "uid" : "7d4065420b885a6b",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join?plan\"\n                Received: \"https://github.com/pricing\"",
       "time" : {
@@ -263,12 +263,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de8ca721ba5dbeca",
+      "uid" : "4476aa470c3454d4",
       "status" : "passed",
       "time" : {
-        "start" : 1625751659108,
-        "stop" : 1625751672835,
-        "duration" : 13727
+        "start" : 1625754075879,
+        "stop" : 1625754089343,
+        "duration" : 13464
       }
     } ]
   },
@@ -282,7 +282,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5dfd3210e5dff6d9",
+      "uid" : "54b94220a6eb0141",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "time" : {
