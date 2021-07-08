@@ -34,10 +34,10 @@ jobs:
           FOLDER: allure-report
           TARGET_FOLDER: docs
       - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
-          if: always()
-          with:
-            deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-            external_repository: ToActions/HtmlActions
-            publish_branch: main
-            publish_dir: docs
+        uses: peaceiris/actions-gh-pages@v3
+        if: always()
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: ToActions/HtmlActions
+          publish_branch: main
+          publish_dir: docs
