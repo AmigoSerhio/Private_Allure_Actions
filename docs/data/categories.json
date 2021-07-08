@@ -6,7 +6,7 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "children" : [ {
         "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "f75190e6ed42cff4",
+        "uid" : "851fe1a203d74b1a",
         "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
         "status" : "failed",
         "time" : {
@@ -19,13 +19,13 @@
         "parameters" : [ "chrome-91.0.4472.124" ]
       }, {
         "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "3127aebc5bd15e39",
+        "uid" : "594b62e68f74278c",
         "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
         "status" : "failed",
         "time" : {
-          "start" : 1625747295272,
-          "stop" : 1625747315960,
-          "duration" : 20688
+          "start" : 1625750629352,
+          "stop" : 1625750644229,
+          "duration" : 14877
         },
         "flaky" : false,
         "newFailed" : false,
@@ -36,7 +36,7 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "children" : [ {
         "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-        "uid" : "c2100258c51e246a",
+        "uid" : "9b0752a551ed70ef",
         "parentUid" : "e7d82dde821b3d27a8a06657f957bf38",
         "status" : "failed",
         "time" : {
@@ -49,13 +49,13 @@
         "parameters" : [ "chrome-91.0.4472.124" ]
       }, {
         "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-        "uid" : "9f4b5c433d199f4e",
+        "uid" : "a490d187e021892f",
         "parentUid" : "e7d82dde821b3d27a8a06657f957bf38",
         "status" : "failed",
         "time" : {
-          "start" : 1625747315961,
-          "stop" : 1625747329951,
-          "duration" : 13990
+          "start" : 1625750644229,
+          "stop" : 1625750657550,
+          "duration" : 13321
         },
         "flaky" : false,
         "newFailed" : false,
@@ -66,7 +66,7 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join?plan\"\n                Received: \"https://github.com/pricing\"",
       "children" : [ {
         "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
-        "uid" : "cd4a419477f4a93b",
+        "uid" : "a9037d3c7304961b",
         "parentUid" : "01d2a65662448fe300aba74edb876e9c",
         "status" : "failed",
         "time" : {
@@ -87,7 +87,7 @@
       "name" : "Can't call click on element with selector \"//header//summary//span[2]\" because element wasn't found",
       "children" : [ {
         "name" : "should test SignIn function . Test-Case3",
-        "uid" : "2ccebb881ec7ee5e",
+        "uid" : "c6d33de3d55b7ef3",
         "parentUid" : "42e5fcf85f9163052dc9f1cace6fbc75",
         "status" : "broken",
         "time" : {
@@ -100,13 +100,13 @@
         "parameters" : [ "chrome-91.0.4472.124" ]
       }, {
         "name" : "should test SignIn function . Test-Case3",
-        "uid" : "cc322007e0cb5ff9",
+        "uid" : "689a52dd60c2c486",
         "parentUid" : "42e5fcf85f9163052dc9f1cace6fbc75",
         "status" : "broken",
         "time" : {
-          "start" : 1625747329951,
-          "stop" : 1625747343023,
-          "duration" : 13072
+          "start" : 1625750657550,
+          "stop" : 1625750670475,
+          "duration" : 12925
         },
         "flaky" : false,
         "newFailed" : false,
@@ -117,7 +117,7 @@
       "name" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "children" : [ {
         "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "162667b46aca2717",
+        "uid" : "e02dad9088713038",
         "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
         "status" : "broken",
         "time" : {
@@ -130,13 +130,13 @@
         "parameters" : [ "chrome-91.0.4472.124" ]
       }, {
         "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "16ff0ac149bdbc22",
+        "uid" : "153ce9f1d61af688",
         "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
         "status" : "broken",
         "time" : {
-          "start" : 1625747345880,
-          "stop" : 1625747350059,
-          "duration" : 4179
+          "start" : 1625750673275,
+          "stop" : 1625750677425,
+          "duration" : 4150
         },
         "flaky" : false,
         "newFailed" : false,
@@ -147,7 +147,7 @@
       "name" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
       "children" : [ {
         "name" : "should check that is Topic text displayed in view port . Test-Case7",
-        "uid" : "436ff13ee4a8a8d1",
+        "uid" : "245941b1259d5504",
         "parentUid" : "c49c8191024c2efc435c3a24e49a4856",
         "status" : "broken",
         "time" : {
@@ -164,7 +164,7 @@
       "name" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
       "children" : [ {
         "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
-        "uid" : "9c38bfa13857ad61",
+        "uid" : "f432cede6dd0f7b2",
         "parentUid" : "21b54828d05b3ba81bbe2642bf9bebc7",
         "status" : "broken",
         "time" : {
@@ -181,13 +181,13 @@
       "name" : "element not interactable\n                  (Session info: headless chrome=91.0.4472.114)",
       "children" : [ {
         "name" : "should check that is Topic text displayed in view port . Test-Case7",
-        "uid" : "aba0875b5a9b7d80",
+        "uid" : "75234c19a2ff09d7",
         "parentUid" : "d4231c404db399da8cb71a300656f796",
         "status" : "broken",
         "time" : {
-          "start" : 1625747365406,
-          "stop" : 1625747380207,
-          "duration" : 14801
+          "start" : 1625750692313,
+          "stop" : 1625750696055,
+          "duration" : 3742
         },
         "flaky" : false,
         "newFailed" : false,
