@@ -19,7 +19,7 @@ describe('HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M
 
 
 
-    it('should test SignUp function (using header button). Test-Case1',() => {  
+    it.only('should test SignUp function (using header button). Test-Case1',() => {
 
         mainPage.openMainPage();
         browser.fullscreenWindow()
