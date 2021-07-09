@@ -6,7 +6,7 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "children" : [ {
         "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "ae42ab19afcf4b21",
+        "uid" : "3f68aa4add2adb5d",
         "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
         "status" : "failed",
         "time" : {
@@ -19,13 +19,13 @@
         "parameters" : [ "chrome-91.0.4472.124" ]
       }, {
         "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "d7ab562803a3f16e",
+        "uid" : "42e4c29fcfdafa48",
         "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
         "status" : "failed",
         "time" : {
-          "start" : 1625836904580,
-          "stop" : 1625836927588,
-          "duration" : 23008
+          "start" : 1625837057403,
+          "stop" : 1625837080726,
+          "duration" : 23323
         },
         "flaky" : false,
         "newFailed" : false,
@@ -36,7 +36,7 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "children" : [ {
         "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-        "uid" : "57b23e31907dc807",
+        "uid" : "8a31e1e1e576f92c",
         "parentUid" : "e7d82dde821b3d27a8a06657f957bf38",
         "status" : "failed",
         "time" : {
@@ -53,7 +53,7 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join?plan\"\n                Received: \"https://github.com/pricing\"",
       "children" : [ {
         "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
-        "uid" : "b173c5afad5c1fa3",
+        "uid" : "e4a8782eca826585",
         "parentUid" : "01d2a65662448fe300aba74edb876e9c",
         "status" : "failed",
         "time" : {
@@ -74,7 +74,7 @@
       "name" : "Can't call click on element with selector \"//header//summary//span[2]\" because element wasn't found",
       "children" : [ {
         "name" : "should test SignIn function . Test-Case3",
-        "uid" : "d3fd89366c1b465a",
+        "uid" : "f44facb527c3203a",
         "parentUid" : "42e5fcf85f9163052dc9f1cace6fbc75",
         "status" : "broken",
         "time" : {
@@ -91,7 +91,7 @@
       "name" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "children" : [ {
         "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "9f0548b88f811510",
+        "uid" : "a8626897d58bcfac",
         "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
         "status" : "broken",
         "time" : {
@@ -108,7 +108,7 @@
       "name" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
       "children" : [ {
         "name" : "should check that is Topic text displayed in view port . Test-Case7",
-        "uid" : "f6a1cd555df2ecba",
+        "uid" : "e5b74305b57d962e",
         "parentUid" : "c49c8191024c2efc435c3a24e49a4856",
         "status" : "broken",
         "time" : {
@@ -125,7 +125,7 @@
       "name" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
       "children" : [ {
         "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
-        "uid" : "581def22bb1f7bac",
+        "uid" : "6723db057d9e4f0",
         "parentUid" : "21b54828d05b3ba81bbe2642bf9bebc7",
         "status" : "broken",
         "time" : {
