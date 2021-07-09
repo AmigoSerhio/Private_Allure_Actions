@@ -1,0 +1,82 @@
+{
+  "uid" : "3c1692e7fb4a35db",
+  "name" : " homeTask_Lesson_14",
+  "fullName" : "Webdriverio_test. homeTask_Lesson_14",
+  "historyId" : "befe34121d5c44d14094ed16e09ef4a3",
+  "time" : {
+    "start" : 1625730402091,
+    "stop" : 1625730405664,
+    "duration" : 3573
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d635d2e9625ce7f",
+      "name" : "Screenshot",
+      "source" : "6d635d2e9625ce7f.png",
+      "type" : "image/png",
+      "size" : 88756
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "testMethod",
+    "value" : " homeTask_Lesson_14"
+  }, {
+    "name" : "package",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.124"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb924f0c5e0ff8ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625558733216,
+        "stop" : 1625558735598,
+        "duration" : 2382
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c1692e7fb4a35db.json",
+  "parameterValues" : [ "chrome-91.0.4472.124" ]
+}

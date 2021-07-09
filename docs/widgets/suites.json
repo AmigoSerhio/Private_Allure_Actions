@@ -4,12 +4,12 @@
     "uid" : "05fcafd464fd736b1ec81e5934f72aa4",
     "name" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe",
     "statistic" : {
-      "failed" : 4,
-      "broken" : 4,
+      "failed" : 3,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 11
+      "total" : 10
     }
   }, {
     "uid" : "5e933d6bba847dc05d9ed465406acace",
@@ -18,9 +18,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 2
     }
   } ]
 }

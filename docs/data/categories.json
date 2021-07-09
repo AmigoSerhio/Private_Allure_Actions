@@ -1,48 +1,36 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "children" : [ {
         "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "3cec3a1819091782",
+        "uid" : "8f5d9f793156aed4",
         "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
         "status" : "failed",
         "time" : {
-          "start" : 1625558715711,
-          "stop" : 1625558734616,
-          "duration" : 18905
+          "start" : 1625730383527,
+          "stop" : 1625730409252,
+          "duration" : 25725
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-91.0.4472.124" ]
-      }, {
-        "name" : "should test SignUp function (using header button). Test-Case1",
-        "uid" : "e5f63ce1c30ce6d7",
-        "parentUid" : "3212045ef2f37a3a3604fbfc7ec5fffe",
-        "status" : "failed",
-        "time" : {
-          "start" : 1625816940729,
-          "stop" : 1625816962070,
-          "duration" : 21341
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-91.0.4472.114" ]
       } ],
       "uid" : "3212045ef2f37a3a3604fbfc7ec5fffe"
     }, {
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "children" : [ {
         "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-        "uid" : "20eb4a56b539251c",
+        "uid" : "2d012ff6ca748200",
         "parentUid" : "e7d82dde821b3d27a8a06657f957bf38",
         "status" : "failed",
         "time" : {
-          "start" : 1625558734617,
-          "stop" : 1625558748322,
-          "duration" : 13705
+          "start" : 1625730409253,
+          "stop" : 1625730422460,
+          "duration" : 13207
         },
         "flaky" : false,
         "newFailed" : false,
@@ -53,13 +41,13 @@
       "name" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join?plan\"\n                Received: \"https://github.com/pricing\"",
       "children" : [ {
         "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
-        "uid" : "8b751231e3386ea4",
+        "uid" : "6f5fa6f30730e301",
         "parentUid" : "01d2a65662448fe300aba74edb876e9c",
         "status" : "failed",
         "time" : {
-          "start" : 1625558767208,
-          "stop" : 1625558780521,
-          "duration" : 13313
+          "start" : 1625730455051,
+          "stop" : 1625730471305,
+          "duration" : 16254
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,13 +62,13 @@
       "name" : "Can't call click on element with selector \"//header//summary//span[2]\" because element wasn't found",
       "children" : [ {
         "name" : "should test SignIn function . Test-Case3",
-        "uid" : "998154c5108f23d7",
+        "uid" : "379be047062c7637",
         "parentUid" : "42e5fcf85f9163052dc9f1cace6fbc75",
         "status" : "broken",
         "time" : {
-          "start" : 1625558748322,
-          "stop" : 1625558761473,
-          "duration" : 13151
+          "start" : 1625730422460,
+          "stop" : 1625730435613,
+          "duration" : 13153
         },
         "flaky" : false,
         "newFailed" : false,
@@ -88,33 +76,16 @@
       } ],
       "uid" : "42e5fcf85f9163052dc9f1cace6fbc75"
     }, {
-      "name" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
-      "children" : [ {
-        "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "76df414545a0ddf",
-        "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
-        "status" : "broken",
-        "time" : {
-          "start" : 1625558765004,
-          "stop" : 1625558767207,
-          "duration" : 2203
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-91.0.4472.124" ]
-      } ],
-      "uid" : "9b2c0d069517656b6d377e24fb6e5867"
-    }, {
       "name" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
       "children" : [ {
         "name" : "should check that is Topic text displayed in view port . Test-Case7",
-        "uid" : "c69ad85e95a5678b",
+        "uid" : "fa3163003fca144f",
         "parentUid" : "c49c8191024c2efc435c3a24e49a4856",
         "status" : "broken",
         "time" : {
-          "start" : 1625558780521,
-          "stop" : 1625558782880,
-          "duration" : 2359
+          "start" : 1625730471305,
+          "stop" : 1625730474003,
+          "duration" : 2698
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,13 +96,13 @@
       "name" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
       "children" : [ {
         "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
-        "uid" : "1c009027aef4cc13",
+        "uid" : "f73a863ef26a8c91",
         "parentUid" : "21b54828d05b3ba81bbe2642bf9bebc7",
         "status" : "broken",
         "time" : {
-          "start" : 1625558786980,
-          "stop" : 1625558799730,
-          "duration" : 12750
+          "start" : 1625730478059,
+          "stop" : 1625730490930,
+          "duration" : 12871
         },
         "flaky" : false,
         "newFailed" : false,
@@ -140,6 +111,5 @@
       "uid" : "21b54828d05b3ba81bbe2642bf9bebc7"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }
