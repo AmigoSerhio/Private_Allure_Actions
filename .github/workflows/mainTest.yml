@@ -33,7 +33,8 @@ jobs:
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
-      uses: cpina/github-action-push-to-another-repository@main
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
         if: always()
         env:
           API_TOKEN_GITHUB: ${{ secrets.PERSONAL_TOKEN }}
@@ -43,5 +44,3 @@ jobs:
           destination-repository-name: 'HtmlActions'
           user-email: s.fart2012@gmail.com
           target-branch: main
-
-
