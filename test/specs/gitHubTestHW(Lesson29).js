@@ -14,7 +14,7 @@ const careersPage = require('../pageobjects/careers.page.js');
 
 
 
-describe('HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe', () => {
+describe('HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe', () => {
     const assert = require('assert');
 
 
