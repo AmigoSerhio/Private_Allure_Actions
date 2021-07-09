@@ -14,7 +14,6 @@ To run this test-suit you need only have last version of Node.js and Git
  * Navigate to project folder in terminal 
  * Instal dependencies:
 
-
     ```
     npm i
     ``` 
@@ -24,6 +23,6 @@ To run this test-suit you need only have last version of Node.js and Git
     ```
    npm test
     ```
-
+   
     to run tests. 
   
