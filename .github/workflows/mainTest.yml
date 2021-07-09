@@ -16,6 +16,9 @@ jobs:
       - name: Run all tests
         if: always()
         run: npm run test:chrome:headless
+      - name: Create Report
+          if: always()
+          run: npm run allure:generate
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
         if: always()
@@ -25,9 +28,6 @@ jobs:
           gh_pages: docs
           allure_report: allure-report
           allure_history: history
-      - name: Create Report
-        if: always()
-        run: npm run allure:generate
       - name: Create Report
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
