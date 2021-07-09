@@ -29,11 +29,19 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with:
-          repository-name: ToActions/HtmlActions
           ACCESS_TOKEN: ${{secrets.PERSONAL_TOKEN}}
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
-
+      uses: cpina/github-action-push-to-another-repository@main
+        if: always()
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.PERSONAL_TOKEN }}
+        with:
+          source-directory: 'allure-report'
+          destination-github-username: 'ToActions'
+          destination-repository-name: 'HtmlActions'
+          user-email: s.fart2012@gmail.com
+          target-branch: main
 
 
