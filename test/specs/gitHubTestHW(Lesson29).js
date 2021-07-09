@@ -19,7 +19,7 @@ describe('HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?lis
 
 
 
-    it.only('should test SignUp function (using header button). Test-Case1',() => {
+    xit('should test SignUp function (using header button). Test-Case1',() => {
 
         mainPage.openMainPage();
         browser.fullscreenWindow()
@@ -32,7 +32,7 @@ describe('HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?lis
 
         })
 
-    it('should test SignUp function (using primary SignUp button). Test-Case2',() => {  
+    xit('should test SignUp function (using primary SignUp button). Test-Case2',() => {
             
         mainPage.openMainPage();
         mainPage.clickSignUpPrimaryButton();
@@ -44,7 +44,7 @@ describe('HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?lis
         
     })
 
-    it('should test SignIn function . Test-Case3',() => {  
+    xit('should test SignIn function . Test-Case3',() => {
             
         signInPage.openSignInPage();
         signInPage.useValidData();   
@@ -94,7 +94,7 @@ describe('HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?lis
     })
             
 
-    it('should check that is Topic text displayed in view port . Test-Case7',() => {  
+    xit('should check that is Topic text displayed in view port . Test-Case7',() => {
 
         mainPage.openMainPage();
         mainPage.clickExploreGitHubButton();
@@ -115,7 +115,7 @@ describe('HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?lis
         searchResultsPage.checkSearchresultsURL();
     })    
 
-    it(' should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9',() => {  
+    xit(' should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9',() => {
         
         mainPage.openMainPage();
         
