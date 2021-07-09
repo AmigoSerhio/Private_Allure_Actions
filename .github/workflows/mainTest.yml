@@ -17,8 +17,8 @@ jobs:
         if: always()
         run: npm run test:chrome:headless
       - name: Create Report
-          if: always()
-          run: npm run allure:generate
+        if: always()
+        run: npm run allure:generate
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
         if: always()
