@@ -1,10 +1,1 @@
-[ {
-  "name" : "GitHub Actions",
-  "type" : "github",
-  "url" : "https://AmigoSerhio.github.io/Private_Allure_Actions",
-  "buildOrder" : 36,
-  "buildName" : "GitHub Actions Run #1022329606",
-  "buildUrl" : "https://github.com/AmigoSerhio/Private_Allure_Actions/actions/runs/1022329606",
-  "reportName" : "Allure Report with history",
-  "reportUrl" : "https://AmigoSerhio.github.io/Private_Allure_Actions/36/"
-} ]
+[ ]
