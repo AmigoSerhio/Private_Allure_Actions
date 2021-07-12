@@ -1,0 +1,109 @@
+{
+  "uid" : "c755fef1eaa13d0d",
+  "name" : "should test Password recowery function . Test-Case4",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test Password recowery function . Test-Case4",
+  "historyId" : "8fb23c8a6c81f68e3e5989b515a15ebf",
+  "time" : {
+    "start" : 1626104963890,
+    "stop" : 1626104967879,
+    "duration" : 3989
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test Password recowery function . Test-Case4"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "271db00d82801867",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626104817928,
+          "stop" : 1626104821650,
+          "duration" : 3722
+        }
+      }, {
+        "uid" : "afee78e5172790a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626103562833,
+          "stop" : 1626103566471,
+          "duration" : 3638
+        }
+      }, {
+        "uid" : "643900864d1e10ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626097718990,
+          "stop" : 1626097723103,
+          "duration" : 4113
+        }
+      }, {
+        "uid" : "a1ac6176d713beb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626097081909,
+          "stop" : 1626097086676,
+          "duration" : 4767
+        }
+      }, {
+        "uid" : "57d3ada3caab8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626096852170,
+          "stop" : 1626096855715,
+          "duration" : 3545
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c755fef1eaa13d0d.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
