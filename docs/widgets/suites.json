@@ -16,9 +16,9 @@
     "name" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe",
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 5,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 10
     }
