@@ -22,8 +22,8 @@ jobs:
         with:
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
           BRANCH: master
-          FOLDER: allure-report/history
-          TARGET_FOLDER: docs/history
+          FOLDER: docs/history
+          TARGET_FOLDER: allure-report/history
       - name: Create Report
         if: always()
         run: npm run allure:generate
