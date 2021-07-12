@@ -6,27 +6,33 @@ on:
 
 jobs:
   tests:
-     runs-on: ubuntu-20.04
-     steps:
+    runs-on: ubuntu-20.04
+    steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
       - run: npm ci
+      - name: copy history
+        if: always()
+        run: cp -R $(pwd)/allure-report/history $(pwd)/allure-results
       - name: Run all tests
         if: always()
         run: npm run test:chrome:headless
       - name: Create Report
-        uses: JamesIves/github-pages-deploy-action@3.1.0
-        if: always()
-        with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          BRANCH: master
-          FOLDER: docs/history
-          TARGET_FOLDER: allure-report/history
-      - name: Create Report
         if: always()
         run: npm run allure:generate
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        if: always()
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
+        with:
+          source-directory: 'allure-report'
+          destination-github-username: 'ToActions'
+          destination-repository-name: 'HtmlActions'
+          user-email: s.fart2012@gmail.com
+          target-branch: main
       - name: Create Report
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
@@ -34,18 +40,4 @@ jobs:
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
           BRANCH: master
           FOLDER: allure-report
-          TARGET_FOLDER: docs
-      - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        if: always()
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
-        with:
-          source-directory: 'docs'
-          destination-github-username: 'ToActions'
-          destination-repository-name: 'HtmlActions'
-          user-email: s.fart2012@gmail.com
-          target-branch: main
-
-
-
+          TARGET_FOLDER: allure-report
