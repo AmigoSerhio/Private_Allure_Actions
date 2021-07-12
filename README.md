@@ -17,7 +17,6 @@ To run this test-suit you need only have last version of Node.js and Git
     ```
     npm i
     ```
-   
 
  * Change test data (UserName, and user password in the signup.page.js)
  * In the project folder use:
@@ -25,6 +24,5 @@ To run this test-suit you need only have last version of Node.js and Git
     ```
     npm test
     ```
-   
     to run tests. 
   

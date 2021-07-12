@@ -16,15 +16,6 @@ jobs:
       - name: Run all tests
         if: always()
         run: npm run test:chrome:headless
-      - name: Test marketplace action
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
-        with:
-          allure_results: allure-results
-          gh_pages: docs
-          allure_report: docs
-          allure_history: docs/history
       - name: Create Report
         if: always()
         run: npm run allure:generate
@@ -36,6 +27,15 @@ jobs:
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: docs
+          allure_report: docs
+          allure_history: docs/history
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         if: always()
