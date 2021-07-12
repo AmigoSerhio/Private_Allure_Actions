@@ -1,0 +1,117 @@
+{
+  "uid" : "d196c7fd02ccab91",
+  "name" : " should print in the console all positions from the careers . Test-Case10",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe. should print in the console all positions from the careers . Test-Case10",
+  "historyId" : "293e87435949319cfe3bab2cc7dcd0e7",
+  "time" : {
+    "start" : 1626105204710,
+    "stop" : 1626105207735,
+    "duration" : 3025
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : " should print in the console all positions from the careers . Test-Case10"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "ada86a693068eb05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626105002249,
+          "stop" : 1626105004232,
+          "duration" : 1983
+        }
+      }, {
+        "uid" : "12ce3e78ae097b6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626104851196,
+          "stop" : 1626104853670,
+          "duration" : 2474
+        }
+      }, {
+        "uid" : "2c885512f8bd6391",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626103604864,
+          "stop" : 1626103607225,
+          "duration" : 2361
+        }
+      }, {
+        "uid" : "632a2d4b393e113d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626097761733,
+          "stop" : 1626097764114,
+          "duration" : 2381
+        }
+      }, {
+        "uid" : "cdc0d2cf0fb1bdb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626097132136,
+          "stop" : 1626097136301,
+          "duration" : 4165
+        }
+      }, {
+        "uid" : "2ba62ef883c756d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626096888282,
+          "stop" : 1626096890702,
+          "duration" : 2420
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d196c7fd02ccab91.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
