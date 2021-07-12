@@ -17,6 +17,14 @@ jobs:
         if: always()
         run: npm run test:chrome:headless
       - name: Create Report
+        uses: JamesIves/github-pages-deploy-action@3.1.0
+        if: always()
+        with:
+          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          BRANCH: master
+          FOLDER: allure-report/history
+          TARGET_FOLDER: docs/history
+      - name: Create Report
         if: always()
         run: npm run allure:generate
       - name: Create Report
@@ -27,15 +35,6 @@ jobs:
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
-      - name: Test marketplace action
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
-        with:
-          allure_results: allure-results
-          gh_pages: docs
-          allure_report: docs
-          allure_history: docs/history
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         if: always()
