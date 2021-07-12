@@ -1,0 +1,64 @@
+{
+  "uid" : "824be9435745ef02",
+  "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
+  "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe. should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
+  "historyId" : "28d9d0d21b599fe46e19234a8ce0ed0e",
+  "time" : {
+    "start" : 1625558786980,
+    "stop" : 1625558799730,
+    "duration" : 12750
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at async Element.runCommandWithHooks (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at OrganisationsPage.clickEnterpriseCloudButton (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\test\\pageobjects\\organisations.paje.js:17:35)\n                    at Context.<anonymous> (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\test\\specs\\gitHubTestHW(Lesson29).js:126:27)\n                    at Context.executeSync (C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sfart\\WebstormProjects\\untitled\\Allure_Actions\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.124"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "824be9435745ef02.json",
+  "parameterValues" : [ "chrome-91.0.4472.124" ]
+}
