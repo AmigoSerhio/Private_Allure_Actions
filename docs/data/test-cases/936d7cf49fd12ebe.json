@@ -1,0 +1,48 @@
+{
+  "uid" : "936d7cf49fd12ebe",
+  "name" : "should test SignUp function (using header button). Test-Case1",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test SignUp function (using header button). Test-Case1",
+  "historyId" : "1525a6546d9a7516b59f11d8a0e21d81",
+  "time" : {
+    "start" : 1626091366979,
+    "stop" : 1626091366980,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test SignUp function (using header button). Test-Case1"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "936d7cf49fd12ebe.json",
+  "parameterValues" : [ ]
+}
