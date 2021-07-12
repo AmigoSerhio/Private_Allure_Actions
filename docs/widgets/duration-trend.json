@@ -1,5 +1,24 @@
 [ {
   "data" : {
-    "duration" : 533950698
+    "duration" : 543117755
+  }
+}, {
+  "data" : {
+    "duration" : 539048403
+  }
+}, {
+  "data" : {
+    "duration" : 538420590
+  }
+}, {
+  "data" : {
+    "duration" : 538174991
+  }
+}, {
+  "buildOrder" : 60,
+  "reportUrl" : "https://AmigoSerhio.github.io/Private_Allure_Actions/60/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 86336
   }
 } ]
