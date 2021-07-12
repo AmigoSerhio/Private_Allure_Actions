@@ -1,0 +1,109 @@
+{
+  "uid" : "3aac048c9a57f62f",
+  "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
+  "fullName" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that filter TypeScript works and first result is relevant . Test-Case8",
+  "historyId" : "880e2411952982115d6406bbf9bb7766",
+  "time" : {
+    "start" : 1625558782880,
+    "stop" : 1625558786980,
+    "duration" : 4100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test that filter TypeScript works and first result is relevant . Test-Case8"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.124"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "443d802f8edfb6e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558782880,
+          "stop" : 1625558786980,
+          "duration" : 4100
+        }
+      }, {
+        "uid" : "a29df46a7cc0b90d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558782880,
+          "stop" : 1625558786980,
+          "duration" : 4100
+        }
+      }, {
+        "uid" : "4cf9018ae2d2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558782880,
+          "stop" : 1625558786980,
+          "duration" : 4100
+        }
+      }, {
+        "uid" : "cf03784f883db54f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558782880,
+          "stop" : 1625558786980,
+          "duration" : 4100
+        }
+      }, {
+        "uid" : "2673effeff4b6aaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625730474004,
+          "stop" : 1625730478058,
+          "duration" : 4054
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3aac048c9a57f62f.json",
+  "parameterValues" : [ "chrome-91.0.4472.124" ]
+}
