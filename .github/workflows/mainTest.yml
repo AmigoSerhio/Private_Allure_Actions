@@ -39,11 +39,4 @@ jobs:
           destination-repository-name: 'HtmlActions'
           user-email: s.fart2012@gmail.com
           target-branch: main
-      - name: Create Report
-        uses: JamesIves/github-pages-deploy-action@3.1.0
-        if: always()
-        with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          BRANCH: master
-          FOLDER: allure-report
-          TARGET_FOLDER: allure-report
+
