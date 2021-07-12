@@ -37,7 +37,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
         with:
-          source-directory: 'allure-report'
+          source-directory: 'docs'
           destination-github-username: 'ToActions'
           destination-repository-name: 'HtmlActions'
           user-email: s.fart2012@gmail.com
