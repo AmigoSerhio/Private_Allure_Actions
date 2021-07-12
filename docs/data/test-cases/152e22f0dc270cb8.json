@@ -1,0 +1,48 @@
+{
+  "uid" : "152e22f0dc270cb8",
+  "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe. should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
+  "historyId" : "b179768a8769c37b6d017fe8cf86397e",
+  "time" : {
+    "start" : 1626085128302,
+    "stop" : 1626085128302,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "152e22f0dc270cb8.json",
+  "parameterValues" : [ ]
+}
