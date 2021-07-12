@@ -1,6 +1,9 @@
 [ {
+  "buildOrder" : 51,
+  "reportUrl" : "https://AmigoSerhio.github.io/Private_Allure_Actions/51/",
+  "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 3,
-    "Test defects" : 6
+    "Test defects" : 5
   }
 } ]
