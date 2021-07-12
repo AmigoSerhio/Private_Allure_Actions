@@ -1,0 +1,118 @@
+{
+  "uid" : "aedfab3c1e5d6c64",
+  "name" : " homeTask_Lesson_14",
+  "fullName" : "Webdriverio_test. homeTask_Lesson_14",
+  "historyId" : "befe34121d5c44d14094ed16e09ef4a3",
+  "time" : {
+    "start" : 1625558733216,
+    "stop" : 1625558735598,
+    "duration" : 2382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "testMethod",
+    "value" : " homeTask_Lesson_14"
+  }, {
+    "name" : "package",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.124"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "745546c2b3d8d5e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558733216,
+          "stop" : 1625558735598,
+          "duration" : 2382
+        }
+      }, {
+        "uid" : "5173c67c63acd56e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558733216,
+          "stop" : 1625558735598,
+          "duration" : 2382
+        }
+      }, {
+        "uid" : "e30dd20a91668e20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558733216,
+          "stop" : 1625558735598,
+          "duration" : 2382
+        }
+      }, {
+        "uid" : "2cafbe9f19e4699c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558733216,
+          "stop" : 1625558735598,
+          "duration" : 2382
+        }
+      }, {
+        "uid" : "9c28f84325419b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558733216,
+          "stop" : 1625558735598,
+          "duration" : 2382
+        }
+      }, {
+        "uid" : "b6d7e4ed773f7d3a",
+        "reportUrl" : "https://AmigoSerhio.github.io/Private_Allure_Actions/60//#testresult/b6d7e4ed773f7d3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558733216,
+          "stop" : 1625558735598,
+          "duration" : 2382
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aedfab3c1e5d6c64.json",
+  "parameterValues" : [ "chrome-91.0.4472.124" ]
+}
