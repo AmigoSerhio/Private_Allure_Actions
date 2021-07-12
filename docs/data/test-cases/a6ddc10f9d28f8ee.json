@@ -1,0 +1,82 @@
+{
+  "uid" : "a6ddc10f9d28f8ee",
+  "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that filter TypeScript works and first result is relevant . Test-Case8",
+  "historyId" : "f5352784eaa77f89ceab9fac28fc2c2c",
+  "time" : {
+    "start" : 1626090708628,
+    "stop" : 1626090712201,
+    "duration" : 3573
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)",
+  "statusTrace" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at MainPage.searchGitHubclick (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:35:33)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:112:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)",
+    "statusTrace" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at MainPage.searchGitHubclick (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:35:33)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:112:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "20c0b7dddacfb4e9",
+      "name" : "Screenshot",
+      "source" : "20c0b7dddacfb4e9.png",
+      "type" : "image/png",
+      "size" : 521764
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test that filter TypeScript works and first result is relevant . Test-Case8"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a6ddc10f9d28f8ee.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
