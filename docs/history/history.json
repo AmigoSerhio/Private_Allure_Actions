@@ -9,12 +9,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "652126f889eea40c",
+      "uid" : "e6226455fc5b5bb5",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626102455461,
-        "stop" : 1626102455461,
+        "start" : 1626103062823,
+        "stop" : 1626103062823,
         "duration" : 0
       }
     }, {
@@ -56,13 +56,13 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "69edfc9a41a4f0b0",
+      "uid" : "31ceb24aafb71511",
       "status" : "broken",
       "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "time" : {
-        "start" : 1626102412791,
-        "stop" : 1626102426265,
-        "duration" : 13474
+        "start" : 1626103022468,
+        "stop" : 1626103034872,
+        "duration" : 12404
       }
     }, {
       "uid" : "cd5a88cc3d361566",
@@ -103,12 +103,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "e382f82409f1a555",
+      "uid" : "180f4042c9fe4fc7",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626102407930,
-        "stop" : 1626102407930,
+        "start" : 1626103018494,
+        "stop" : 1626103018494,
         "duration" : 0
       }
     }, {
@@ -150,12 +150,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "a1547c962e080a21",
+      "uid" : "39ea506750a19b15",
       "status" : "passed",
       "time" : {
-        "start" : 1626102455461,
-        "stop" : 1626102457972,
-        "duration" : 2511
+        "start" : 1626103062823,
+        "stop" : 1626103065848,
+        "duration" : 3025
       }
     }, {
       "uid" : "632a2d4b393e113d",
@@ -193,12 +193,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "ce3ea9a8d14b8d6b",
+      "uid" : "49eb40c024ac1e01",
       "status" : "passed",
       "time" : {
-        "start" : 1626102420995,
-        "stop" : 1626102423553,
-        "duration" : 2558
+        "start" : 1626103030731,
+        "stop" : 1626103033005,
+        "duration" : 2274
       }
     }, {
       "uid" : "367bc8484d9b60fc",
@@ -236,7 +236,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "1de82e76de793124",
+      "uid" : "95685c6057d43214",
       "status" : "broken",
       "statusDetails" : "Can't call click on element with selector \"//header//summary//span[2]\" because element wasn't found",
       "time" : {
@@ -293,7 +293,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "7f130be00338247f",
+      "uid" : "7a42367b65bee332",
       "status" : "passed",
       "time" : {
         "start" : 1625558782880,
@@ -345,12 +345,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "b138e478ddbe35e5",
+      "uid" : "9b64454171086a62",
       "status" : "passed",
       "time" : {
-        "start" : 1626102407930,
-        "stop" : 1626102412791,
-        "duration" : 4861
+        "start" : 1626103018495,
+        "stop" : 1626103022468,
+        "duration" : 3973
       }
     }, {
       "uid" : "643900864d1e10ef",
@@ -388,7 +388,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "59e55114898fcdbc",
+      "uid" : "1c2462f46cffe474",
       "status" : "broken",
       "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "time" : {
@@ -445,7 +445,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "841c2394711da3f1",
+      "uid" : "423132ff2a02071b",
       "status" : "broken",
       "statusDetails" : "Can't call click on element with selector \"//*[contains(text(),\"Enterprise Cloud\")]\" because element wasn't found",
       "time" : {
@@ -502,12 +502,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "4c30e269fe606d0b",
+      "uid" : "fc6623b75286ceed",
       "status" : "passed",
       "time" : {
-        "start" : 1626102426265,
-        "stop" : 1626102451370,
-        "duration" : 25105
+        "start" : 1626103034872,
+        "stop" : 1626103058737,
+        "duration" : 23865
       }
     }, {
       "uid" : "cd8d826ccbf64018",
@@ -545,12 +545,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "4685c48833de47d1",
+      "uid" : "495fa284c6a17b5b",
       "status" : "passed",
       "time" : {
-        "start" : 1626102407929,
-        "stop" : 1626102420995,
-        "duration" : 13066
+        "start" : 1626103018489,
+        "stop" : 1626103030731,
+        "duration" : 12242
       }
     }, {
       "uid" : "bbceb65fd447c637",
@@ -588,7 +588,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "7809c0e8faf832a5",
+      "uid" : "7756b72b3fccc6e8",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home\"",
       "time" : {
@@ -645,7 +645,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "b562125cf7f3a87a",
+      "uid" : "ea268a0ef199eb2d",
       "status" : "passed",
       "time" : {
         "start" : 1625558715806,
@@ -697,7 +697,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "fdb1f90f9c479ba2",
+      "uid" : "7c8e6505783a738d",
       "status" : "passed",
       "time" : {
         "start" : 1625558799730,
@@ -749,7 +749,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "d498769a627eb4c6",
+      "uid" : "1f47c036c48e6545",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join\"\n                Received: \"https://github.com/signup?user_email=&source=form-home-signup\"",
       "time" : {
@@ -806,12 +806,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "7ab2c244fe00b06c",
+      "uid" : "f40e6fd40bce58bd",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626102407929,
-        "stop" : 1626102407929,
+        "start" : 1626103018494,
+        "stop" : 1626103018494,
         "duration" : 0
       }
     }, {
@@ -853,7 +853,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "87dd749665201405",
+      "uid" : "44095ff276cbc7f1",
       "status" : "passed",
       "time" : {
         "start" : 1625558733216,
@@ -905,12 +905,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "e50efe79e86cc28d",
+      "uid" : "e7806d63b0de359f",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626102451370,
-        "stop" : 1626102451370,
+        "start" : 1626103058737,
+        "stop" : 1626103058737,
         "duration" : 0
       }
     }, {
@@ -952,12 +952,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "c3f6e7ee4a0785cf",
+      "uid" : "f3e7b0b2a33bc0f7",
       "status" : "passed",
       "time" : {
-        "start" : 1626102451370,
-        "stop" : 1626102455461,
-        "duration" : 4091
+        "start" : 1626103058737,
+        "stop" : 1626103062822,
+        "duration" : 4085
       }
     }, {
       "uid" : "dc65506a3238e519",
@@ -995,7 +995,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "ae47aef231ae0d9f",
+      "uid" : "d9d9ec4f2ab5a6d8",
       "status" : "broken",
       "statusDetails" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
       "time" : {
@@ -1052,7 +1052,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "93f88efb89dfcee6",
+      "uid" : "474c5fc74a37a44",
       "status" : "passed",
       "time" : {
         "start" : 1625558761473,
@@ -1104,7 +1104,7 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "fedde033d392f6ba",
+      "uid" : "d333823392e99fae",
       "status" : "failed",
       "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://github.com/join?plan\"\n                Received: \"https://github.com/pricing\"",
       "time" : {
@@ -1161,12 +1161,12 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "f351c90a4cf94b8b",
+      "uid" : "46977758e8982833",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626102407930,
-        "stop" : 1626102407930,
+        "start" : 1626103018494,
+        "stop" : 1626103018494,
         "duration" : 0
       }
     }, {
