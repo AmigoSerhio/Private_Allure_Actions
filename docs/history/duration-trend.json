@@ -1,5 +1,8 @@
 [ {
+  "buildOrder" : 36,
+  "reportUrl" : "https://AmigoSerhio.github.io/Private_Allure_Actions/36/",
+  "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 533950698
+    "duration" : 86336
   }
 } ]
