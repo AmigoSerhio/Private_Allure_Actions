@@ -16,7 +16,7 @@ jobs:
       - run: npm ci
       - name: copy history
         if: always()
-        run: cp -R $(pwd)/allure-report/history $(pwd)/allure-results
+        run: cp -R $(pwd)/docs/history $(pwd)/allure-results/history
       - name: Run all tests
         if: always()
         run: npm run test:chrome:headless
