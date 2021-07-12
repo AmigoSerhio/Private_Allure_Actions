@@ -5,26 +5,26 @@ on:
       - 'master'
 
 jobs:
-  tests:
-    runs-on: ubuntu-20.04
+  runs-on: ubuntu-20.04
+  steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+  copy:
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+      - name: CopyHistory
+      uses: JamesIves/github-pages-deploy-action@3.1.0
+      if: always()
+      with:
+        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        BRANCH: master
+        FOLDER: docs/history
+        TARGET_FOLDER: allure-results
+  tests:
+    needs: copy
+    steps:
       - run: npm ci
-      - name: get allure history
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
-        with:
-          allure_results: allure-results
-          gh_pages: allure-report
-          allure_report: allure-report
-          allure_history: allure-report/history
-      - name: copy history
-        if: always()
-        run: cp -R $(pwd)/allure-report/history $(pwd)/allure-results
       - name: Run all tests
         if: always()
         run: npm run test:chrome:headless
