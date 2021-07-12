@@ -37,16 +37,16 @@ jobs:
           allure_report: docs
           allure_history: docs/history
       - name: Pushes to another repository
-          uses: cpina/github-action-push-to-another-repository@main
-          if: always()
-          env:
-            API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
-          with:
-            source-directory: 'docs'
-            destination-github-username: 'ToActions'
-            destination-repository-name: 'HtmlActions'
-            user-email: s.fart2012@gmail.com
-            target-branch: main
+        uses: cpina/github-action-push-to-another-repository@main
+        if: always()
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
+        with:
+          source-directory: 'docs'
+          destination-github-username: 'ToActions'
+          destination-repository-name: 'HtmlActions'
+          user-email: s.fart2012@gmail.com
+          target-branch: main
 
 
 
