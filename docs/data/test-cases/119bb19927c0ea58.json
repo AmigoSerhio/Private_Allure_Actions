@@ -1,0 +1,93 @@
+{
+  "uid" : "119bb19927c0ea58",
+  "name" : "homeTask_Lesson_9",
+  "fullName" : "Webdriverio_test.homeTask_Lesson_9",
+  "historyId" : "7ed1e0e4d8f78e6363e704acc7a6a641",
+  "time" : {
+    "start" : 1625843370732,
+    "stop" : 1625843382808,
+    "duration" : 12076
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "testClass",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTask_Lesson_9"
+  }, {
+    "name" : "package",
+    "value" : "Webdriverio_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "433eeb8b9de8502a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625843061307,
+          "stop" : 1625843073717,
+          "duration" : 12410
+        }
+      }, {
+        "uid" : "5995232527dba8f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625842006916,
+          "stop" : 1625842023381,
+          "duration" : 16465
+        }
+      }, {
+        "uid" : "a27e33c2a00ba064",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625841848375,
+          "stop" : 1625841861163,
+          "duration" : 12788
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "119bb19927c0ea58.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
