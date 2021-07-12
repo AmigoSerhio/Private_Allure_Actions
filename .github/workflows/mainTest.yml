@@ -14,6 +14,9 @@ jobs:
           node-version: '14'
       - run: npm ci
       - name: Create Report
+        if: always()
+        run: npm run allure:generate
+      - name: Create Report
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with:
@@ -27,7 +30,7 @@ jobs:
         id: allure-report
         with:
           allure_results: allure-results
-          gh_pages: last-history
+          gh_pages: history
           allure_report: allure-report
           allure_history: allure-history
       - name: Run all tests
