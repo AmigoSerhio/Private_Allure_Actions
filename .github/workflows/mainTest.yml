@@ -26,8 +26,13 @@ jobs:
         if: always()
         run: npm run test:chrome:headless
       - name: Create Report
-        if: always()
-        run: npm run allure:generate
+          uses: JamesIves/github-pages-deploy-action@3.1.0
+          if: always()
+          with:
+            ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+            BRANCH: master
+            FOLDER: allure-report
+            TARGET_FOLDER: allure-report
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         if: always()
