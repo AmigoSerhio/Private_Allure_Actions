@@ -19,7 +19,7 @@ jobs:
       - name: Create Report
         if: always()
         run: npm run allure:generate
-      - name: Create Report
+      - name: Create Report to DOCS
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with:
