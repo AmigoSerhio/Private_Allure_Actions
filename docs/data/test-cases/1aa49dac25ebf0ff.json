@@ -1,0 +1,82 @@
+{
+  "uid" : "1aa49dac25ebf0ff",
+  "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
+  "historyId" : "7d0ceba4ebf90ee749a33e0b4579d301",
+  "time" : {
+    "start" : 1626092438857,
+    "stop" : 1626092451647,
+    "duration" : 12790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                \n                    at MainPage.checkWhyGitHubDropdownMenu (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:91:13)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:74:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                \n                    at MainPage.checkWhyGitHubDropdownMenu (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:91:13)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:74:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d7321f0fd13d7b3f",
+      "name" : "Screenshot",
+      "source" : "d7321f0fd13d7b3f.png",
+      "type" : "image/png",
+      "size" : 524472
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1aa49dac25ebf0ff.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
