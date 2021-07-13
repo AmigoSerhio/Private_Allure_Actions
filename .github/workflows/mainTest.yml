@@ -14,16 +14,21 @@ jobs:
           node-version: '14'
       - uses: actions/checkout@v1
       - run: npm ci
+      - name: Run all tests
+        run: npm run test:chrome:headless
       - name: copy history
         if: always()
-        run: cp -R $(pwd)/docs/history $(pwd)/allure-results/history
-      - name: Run all tests
-        if: always()
-        run: npm run test:chrome:headless
+        run: cp -R $(pwd)/docs/history/. $(pwd)/allure-results/history
       - name: Create Report
         if: always()
         run: npm run allure:generate
-      - name: Create Report
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: allure-report
+          path: ./allure-report
+      - name: Deploy Report
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with:
