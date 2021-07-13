@@ -16,12 +16,10 @@ jobs:
       - run: npm ci
       - name: Run all tests
         run: npm run test:chrome:headless
-      - name: copy history
-        if: always()
-        run: cp -R $(pwd)/docs/history/. $(pwd)/allure-results/history
       - name: Create Report
         if: always()
-        run: npm run allure:generate
+          # trying to save history of previous runs if it is exists
+        run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run allure:generate
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         if: always()
