@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e54f0bb8f03ff960",
+      "uid" : "b05f88d61d5c3d06",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626189587998,
-        "stop" : 1626189587998,
+        "start" : 1626189673905,
+        "stop" : 1626189673905,
         "duration" : 0
       }
     } ]
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9723cc137bb6450",
+      "uid" : "6d012de1880f7cac",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626189544287,
-        "stop" : 1626189544287,
+        "start" : 1626189627513,
+        "stop" : 1626189627513,
         "duration" : 0
       }
     } ]
@@ -49,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c06699ac5a4bd83e",
+      "uid" : "e5819fc51bd46030",
       "status" : "passed",
       "time" : {
-        "start" : 1626189557186,
-        "stop" : 1626189559234,
-        "duration" : 2048
+        "start" : 1626189640060,
+        "stop" : 1626189642495,
+        "duration" : 2435
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b933f604cbc7cef",
+      "uid" : "c14eba0bd1d5cd77",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626189582971,
-        "stop" : 1626189582971,
+        "start" : 1626189669840,
+        "stop" : 1626189669840,
         "duration" : 0
       }
     } ]
@@ -88,13 +88,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3f716fc714d482d",
+      "uid" : "8290d4128e23d4df",
       "status" : "broken",
       "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "time" : {
-        "start" : 1626189548573,
-        "stop" : 1626189560538,
-        "duration" : 11965
+        "start" : 1626189631863,
+        "stop" : 1626189645002,
+        "duration" : 13139
       }
     } ]
   },
@@ -108,12 +108,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7240e32e3d999f1a",
+      "uid" : "76b80e943bcb0f5a",
       "status" : "passed",
       "time" : {
-        "start" : 1626189544288,
-        "stop" : 1626189548573,
-        "duration" : 4285
+        "start" : 1626189627514,
+        "stop" : 1626189631862,
+        "duration" : 4348
       }
     } ]
   },
@@ -127,51 +127,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b9d978c91e28760",
+      "uid" : "1e255e6a07472ffa",
       "status" : "passed",
       "time" : {
-        "start" : 1626189582971,
-        "stop" : 1626189587998,
-        "duration" : 5027
-      }
-    } ]
-  },
-  "c4f2528aa0b878cd02b62822effe41fc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "94b8c90bbec3115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626189560538,
-        "stop" : 1626189582971,
-        "duration" : 22433
-      }
-    } ]
-  },
-  "cca95270497650eb9cade9634fddac0f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "522be3f8b3e0ea8c",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1626189544288,
-        "stop" : 1626189544288,
-        "duration" : 0
+        "start" : 1626189669840,
+        "stop" : 1626189673905,
+        "duration" : 4065
       }
     } ]
   },
@@ -185,12 +146,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea068cca403a9e20",
+      "uid" : "440a7e25259ae313",
       "status" : "passed",
       "time" : {
-        "start" : 1626189544283,
-        "stop" : 1626189557185,
-        "duration" : 12902
+        "start" : 1626189627512,
+        "stop" : 1626189640060,
+        "duration" : 12548
+      }
+    } ]
+  },
+  "c4f2528aa0b878cd02b62822effe41fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ec3ed3a3bcf5178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626189645002,
+        "stop" : 1626189669840,
+        "duration" : 24838
+      }
+    } ]
+  },
+  "cca95270497650eb9cade9634fddac0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1e272035805c96a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1626189627514,
+        "stop" : 1626189627514,
+        "duration" : 0
       }
     } ]
   },
@@ -204,12 +204,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10e18697776a508",
+      "uid" : "523492bd5bf9cd48",
       "status" : "passed",
       "time" : {
-        "start" : 1626189587998,
-        "stop" : 1626189590043,
-        "duration" : 2045
+        "start" : 1626189673905,
+        "stop" : 1626189676260,
+        "duration" : 2355
       }
     } ]
   },
@@ -223,12 +223,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2620ffa78deffe8e",
+      "uid" : "47e52d53517201b1",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1626189544288,
-        "stop" : 1626189544288,
+        "start" : 1626189627514,
+        "stop" : 1626189627514,
         "duration" : 0
       }
     } ]
