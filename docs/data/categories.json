@@ -6,13 +6,13 @@
       "name" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "children" : [ {
         "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "c4e89b73b5a8eaf1",
+        "uid" : "977ea29ae67cece6",
         "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
         "status" : "broken",
         "time" : {
-          "start" : 1626189861141,
-          "stop" : 1626189872186,
-          "duration" : 11045
+          "start" : 1626190034724,
+          "stop" : 1626190047145,
+          "duration" : 12421
         },
         "flaky" : false,
         "newFailed" : false,
