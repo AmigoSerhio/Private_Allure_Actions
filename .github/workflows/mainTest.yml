@@ -26,6 +26,17 @@ jobs:
         with:
           name: allure-report
           path: ./allure-report
+      - name: Copy Results
+        if: always()
+        # trying to save history of previous runs if it is exists
+        run: cp -r $(pwd)/allure-results/. $(pwd)/docs/allure-results/.
+      - uses: actions/checkout@v2
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: allure-results
+          path: ./allure-results
       - name: Deploy Report
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
@@ -34,17 +45,6 @@ jobs:
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
-      - uses: actions/checkout@v2
-      - name: Copy Results
-        if: always()
-          # trying to save history of previous runs if it is exists
-        run: cp -r $(pwd)/allure-results/. $(pwd)/docs/allure-results/.
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v1
-        if: always()
-        with:
-          name: allure-results
-          path: ./allure-results
       - name: Pushes docs to another repository
         uses: cpina/github-action-push-to-another-repository@main
         if: always()
