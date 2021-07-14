@@ -6,36 +6,19 @@
       "name" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
       "children" : [ {
         "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-        "uid" : "a4d44ca15937e214",
+        "uid" : "1a214996f77ba862",
         "parentUid" : "9b2c0d069517656b6d377e24fb6e5867",
         "status" : "broken",
         "time" : {
-          "start" : 1626264220410,
-          "stop" : 1626264233621,
-          "duration" : 13211
+          "start" : 1626266286059,
+          "stop" : 1626266298465,
+          "duration" : 12406
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-91.0.4472.114" ]
       } ],
       "uid" : "9b2c0d069517656b6d377e24fb6e5867"
-    }, {
-      "name" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)",
-      "children" : [ {
-        "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
-        "uid" : "9d1a5f87e253e7cd",
-        "parentUid" : "96d36d396cf9909ccd374dc830c7b944",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626264250941,
-          "stop" : 1626264254242,
-          "duration" : 3301
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-91.0.4472.114" ]
-      } ],
-      "uid" : "96d36d396cf9909ccd374dc830c7b944"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
