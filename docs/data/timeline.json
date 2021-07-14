@@ -1,13 +1,13 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "should test SignIn function . Test-Case3",
-    "uid" : "804e759f69b80e5f",
+    "name" : "should test SignUp function (using header button). Test-Case1",
+    "uid" : "579b72af19d706ac",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626260815300,
-      "stop" : 1626260815300,
+      "start" : 1626261028687,
+      "stop" : 1626261028687,
       "duration" : 0
     },
     "flaky" : false,
@@ -17,26 +17,26 @@
     "name" : "0-1",
     "children" : [ {
       "name" : "homeTask_Lesson_9",
-      "uid" : "c5f803f27b0a1ee2",
+      "uid" : "8ca28664f6ad8d29",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1626260815301,
-        "stop" : 1626260828060,
-        "duration" : 12759
+        "start" : 1626261028667,
+        "stop" : 1626261043745,
+        "duration" : 15078
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : " homeTask_Lesson_14",
-      "uid" : "6062f6f284d9ac38",
+      "uid" : "e9163959d002c2bd",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1626260828061,
-        "stop" : 1626260830164,
-        "duration" : 2103
+        "start" : 1626261043746,
+        "stop" : 1626261046400,
+        "duration" : 2654
       },
       "flaky" : false,
       "newFailed" : false,
@@ -44,82 +44,13 @@
     } ],
     "uid" : "27fa874cadc1574e37a07abb440963bd"
   }, {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "should test Password recowery function . Test-Case4",
-      "uid" : "21d1fafad9ee6af7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626260815300,
-        "stop" : 1626260819279,
-        "duration" : 3979
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
-      "uid" : "8b23e48c949607f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626260852250,
-        "stop" : 1626260856042,
-        "duration" : 3792
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-      "uid" : "45b969ce370a781c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1626260819279,
-        "stop" : 1626260830807,
-        "duration" : 11528
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
-      "uid" : "2fe464cbc0914f9f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626260830808,
-        "stop" : 1626260852250,
-        "duration" : 21442
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : " should print in the console all positions from the careers . Test-Case10",
-      "uid" : "9d3dfb9cb862c05a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626260856042,
-        "stop" : 1626260858677,
-        "duration" : 2635
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "should test SignUp function (using header button). Test-Case1",
-    "uid" : "d62330799754d14e",
+    "name" : "should check that is Topic text displayed in view port . Test-Case7",
+    "uid" : "9072b6462b400405",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626260815300,
-      "stop" : 1626260815300,
+      "start" : 1626261064374,
+      "stop" : 1626261064374,
       "duration" : 0
     },
     "flaky" : false,
@@ -127,25 +58,94 @@
     "parameters" : [ ]
   }, {
     "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
-    "uid" : "f5354ad7294d846d",
+    "uid" : "6e2d4459fddd25e1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626260856042,
-      "stop" : 1626260856042,
+      "start" : 1626261068336,
+      "stop" : 1626261068336,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should check that is Topic text displayed in view port . Test-Case7",
-    "uid" : "c75706a33a4bd4d7",
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
+      "uid" : "37dccad38322b237",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626261035007,
+        "stop" : 1626261048050,
+        "duration" : 13043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
+      "uid" : "632829e6741a3984",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626261064374,
+        "stop" : 1626261068336,
+        "duration" : 3962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : " should print in the console all positions from the careers . Test-Case10",
+      "uid" : "44d4e67e3599c18b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626261068336,
+        "stop" : 1626261072666,
+        "duration" : 4330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
+      "uid" : "f12221daf7be8ea0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626261048051,
+        "stop" : 1626261064374,
+        "duration" : 16323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should test Password recowery function . Test-Case4",
+      "uid" : "980460e8fa2885e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626261028687,
+        "stop" : 1626261035007,
+        "duration" : 6320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "should test SignIn function . Test-Case3",
+    "uid" : "8f6241081ec259b1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626260852250,
-      "stop" : 1626260852250,
+      "start" : 1626261028687,
+      "stop" : 1626261028687,
       "duration" : 0
     },
     "flaky" : false,
@@ -153,12 +153,12 @@
     "parameters" : [ ]
   }, {
     "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-    "uid" : "7c52c290c8c60320",
+    "uid" : "f66fe31763bfabe4",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626260815300,
-      "stop" : 1626260815300,
+      "start" : 1626261028687,
+      "stop" : 1626261028687,
       "duration" : 0
     },
     "flaky" : false,
