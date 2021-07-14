@@ -26,14 +26,6 @@ jobs:
         with:
           name: allure-report
           path: ./allure-report
-      - name: Deploy Results
-        uses: JamesIves/github-pages-deploy-action@3.1.0
-        if: always()
-        with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          BRANCH: master
-          FOLDER: allure-results
-          TARGET_FOLDER: allure results
       - name: Deploy Report
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
@@ -53,17 +45,6 @@ jobs:
           destination-repository-name: 'HtmlActions'
           user-email: s.fart2012@gmail.com
           target-branch: main
-      - name: Pushes allure-results to another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        if: always()
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
-        with:
-          source-directory: 'allure-results'
-          destination-github-username: 'ToActions'
-          destination-repository-name: 'HtmlActions'
-          user-email: s.fart2012@gmail.com
-          target-branch: main
   deplres:
     runs-on: ubuntu-20.04
     steps:
@@ -73,6 +54,7 @@ jobs:
           node-version: '14'
       - uses: actions/checkout@v1
       - run: npm ci
+      - name: Deploy Results
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with:
