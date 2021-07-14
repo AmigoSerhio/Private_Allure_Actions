@@ -35,6 +35,10 @@ jobs:
           FOLDER: allure-report
           TARGET_FOLDER: docs
       - uses: actions/checkout@v2
+      - name: Copy Results
+        if: always()
+          # trying to save history of previous runs if it is exists
+        run: cp -r $(pwd)/allure-results/. $(pwd)/docs/allure-result/.
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         if: always()
