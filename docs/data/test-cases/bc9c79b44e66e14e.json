@@ -1,0 +1,174 @@
+{
+  "uid" : "bc9c79b44e66e14e",
+  "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
+  "historyId" : "7d0ceba4ebf90ee749a33e0b4579d301",
+  "time" : {
+    "start" : 1626267473379,
+    "stop" : 1626267487217,
+    "duration" : 13838
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                \n                    at MainPage.checkWhyGitHubDropdownMenu (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:91:13)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:74:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                \n                    at MainPage.checkWhyGitHubDropdownMenu (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:91:13)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:74:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17253e1d8c141dae",
+      "name" : "Screenshot",
+      "source" : "17253e1d8c141dae.png",
+      "type" : "image/png",
+      "size" : 521059
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 10,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "f24db3eea405184f",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626267046160,
+          "stop" : 1626267058930,
+          "duration" : 12770
+        }
+      }, {
+        "uid" : "1a214996f77ba862",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626266286059,
+          "stop" : 1626266298465,
+          "duration" : 12406
+        }
+      }, {
+        "uid" : "a4d44ca15937e214",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626264220410,
+          "stop" : 1626264233621,
+          "duration" : 13211
+        }
+      }, {
+        "uid" : "e2ebd6f49dd8559d",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626263800646,
+          "stop" : 1626263814812,
+          "duration" : 14166
+        }
+      }, {
+        "uid" : "a07cfb4246487735",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626262816986,
+          "stop" : 1626262829430,
+          "duration" : 12444
+        }
+      }, {
+        "uid" : "dd7e22ae7604e0aa",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626261270957,
+          "stop" : 1626261275814,
+          "duration" : 4857
+        }
+      }, {
+        "uid" : "37dccad38322b237",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626261035007,
+          "stop" : 1626261048050,
+          "duration" : 13043
+        }
+      }, {
+        "uid" : "45b969ce370a781c",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626260819279,
+          "stop" : 1626260830807,
+          "duration" : 11528
+        }
+      }, {
+        "uid" : "70c5102156bed6cb",
+        "status" : "broken",
+        "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+        "time" : {
+          "start" : 1626260605026,
+          "stop" : 1626260617065,
+          "duration" : 12039
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bc9c79b44e66e14e.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
