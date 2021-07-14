@@ -46,6 +46,7 @@ jobs:
           user-email: s.fart2012@gmail.com
           target-branch: main
   deplres:
+    if: always()
     needs: tests
     steps:
       - uses: actions/checkout@v2
