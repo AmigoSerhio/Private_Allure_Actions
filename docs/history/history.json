@@ -1,0 +1,237 @@
+{
+  "b179768a8769c37b6d017fe8cf86397e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7c2edb46649c210",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1626268725578,
+        "stop" : 1626268725578,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1525a6546d9a7516b59f11d8a0e21d81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b14dd612c5898a1",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1626268678871,
+        "stop" : 1626268678871,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5a84268e024a04210c49df6c4c15aee1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "932cf10e99b2b920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268692588,
+        "stop" : 1626268695300,
+        "duration" : 2712
+      }
+    } ]
+  },
+  "7d0ceba4ebf90ee749a33e0b4579d301" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1646f5e86c68364e",
+      "status" : "broken",
+      "statusDetails" : "The expression evaluated to a falsy value:\n                \n                  assert(this.WhyGitHubDropdownMenu.isDisplayed())\n                ",
+      "time" : {
+        "start" : 1626268683624,
+        "stop" : 1626268696926,
+        "duration" : 13302
+      }
+    } ]
+  },
+  "c1b1d20037dd6e1318a81657eba8aa2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe532f2e32a60610",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1626268721045,
+        "stop" : 1626268721045,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8fb23c8a6c81f68e3e5989b515a15ebf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60031f550db5f4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268678871,
+        "stop" : 1626268683624,
+        "duration" : 4753
+      }
+    } ]
+  },
+  "f5352784eaa77f89ceab9fac28fc2c2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "417b7ab6ec5f52e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268721045,
+        "stop" : 1626268725578,
+        "duration" : 4533
+      }
+    } ]
+  },
+  "7ed1e0e4d8f78e6363e704acc7a6a641" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db1db719276dc273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268678870,
+        "stop" : 1626268692588,
+        "duration" : 13718
+      }
+    } ]
+  },
+  "cca95270497650eb9cade9634fddac0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b7e1be0cca16e0c",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1626268678871,
+        "stop" : 1626268678871,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c4f2528aa0b878cd02b62822effe41fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "177e855f2c2fa2a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268696926,
+        "stop" : 1626268721044,
+        "duration" : 24118
+      }
+    } ]
+  },
+  "293e87435949319cfe3bab2cc7dcd0e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3db1bc11a974b01",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"[data-ga-click=\"Footer, go to careers, text:careers\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1626268725578,
+        "stop" : 1626268739609,
+        "duration" : 14031
+      }
+    } ]
+  },
+  "f9fc1690d347fbea5290ef30c3e1439a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52b41de678f3677d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1626268678871,
+        "stop" : 1626268678871,
+        "duration" : 0
+      }
+    } ]
+  }
+}
