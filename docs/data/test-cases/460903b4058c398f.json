@@ -1,0 +1,140 @@
+{
+  "uid" : "460903b4058c398f",
+  "name" : "should check that is Topic text displayed in view port . Test-Case7",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should check that is Topic text displayed in view port . Test-Case7",
+  "historyId" : "c1b1d20037dd6e1318a81657eba8aa2d",
+  "time" : {
+    "start" : 1626267511724,
+    "stop" : 1626267511724,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should check that is Topic text displayed in view port . Test-Case7"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "7a7e0f5598839324",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626267081579,
+          "stop" : 1626267081579,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d54d9bb0e1cb46c2",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626266319561,
+          "stop" : 1626266319561,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "339f259f109876e6",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626264250941,
+          "stop" : 1626264250941,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b7d99668315caa31",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626263833722,
+          "stop" : 1626263833722,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "834afab6ee79ea7",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626262853076,
+          "stop" : 1626262853076,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ef8c0f0a8e5fc015",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626261292454,
+          "stop" : 1626261292454,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9072b6462b400405",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626261064374,
+          "stop" : 1626261064374,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c75706a33a4bd4d7",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626260852250,
+          "stop" : 1626260852250,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c1edc3165f36674a",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1626260634575,
+          "stop" : 1626260634575,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "460903b4058c398f.json",
+  "parameterValues" : [ ]
+}
