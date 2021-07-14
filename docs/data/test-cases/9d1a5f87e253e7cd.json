@@ -1,0 +1,141 @@
+{
+  "uid" : "9d1a5f87e253e7cd",
+  "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
+  "fullName" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe.should test that filter TypeScript works and first result is relevant . Test-Case8",
+  "historyId" : "f5352784eaa77f89ceab9fac28fc2c2c",
+  "time" : {
+    "start" : 1626264250941,
+    "stop" : 1626264254242,
+    "duration" : 3301
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)",
+  "statusTrace" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at MainPage.searchGitHubclick (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:35:33)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:112:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)",
+    "statusTrace" : "element not interactable: element has zero size\n                  (Session info: headless chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at MainPage.searchGitHubclick (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/pageobjects/main.page.js:35:33)\n                    at Context.<anonymous> (/home/runner/work/Private_Allure_Actions/Private_Allure_Actions/test/specs/gitHubTestHW(Lesson29).js:112:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62d083d45f4d0091",
+      "name" : "Screenshot",
+      "source" : "62d083d45f4d0091.png",
+      "type" : "image/png",
+      "size" : 518897
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testClass",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should test that filter TypeScript works and first result is relevant . Test-Case8"
+  }, {
+    "name" : "package",
+    "value" : "HomeWork/TestTask/Actions (Lesson 29) https://youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "47379a504afad68f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626263833722,
+          "stop" : 1626263838037,
+          "duration" : 4315
+        }
+      }, {
+        "uid" : "3f5a9258b54d5d19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626262853076,
+          "stop" : 1626262857169,
+          "duration" : 4093
+        }
+      }, {
+        "uid" : "6ff8e8b41e1b52eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626261292454,
+          "stop" : 1626261297202,
+          "duration" : 4748
+        }
+      }, {
+        "uid" : "632829e6741a3984",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626261064374,
+          "stop" : 1626261068336,
+          "duration" : 3962
+        }
+      }, {
+        "uid" : "8b23e48c949607f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626260852250,
+          "stop" : 1626260856042,
+          "duration" : 3792
+        }
+      }, {
+        "uid" : "13e150d17293471b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626260634575,
+          "stop" : 1626260638721,
+          "duration" : 4146
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9d1a5f87e253e7cd.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
