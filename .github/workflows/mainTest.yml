@@ -34,7 +34,15 @@ jobs:
           BRANCH: master
           FOLDER: allure-report
           TARGET_FOLDER: docs
-      - name: Pushes report to another repository
+      - name: Deploy Results
+        uses: JamesIves/github-pages-deploy-action@3.1.0
+        if: always()
+        with:
+          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          BRANCH: master
+          FOLDER: allure-results
+          TARGET_FOLDER: ./docs/allure
+      - name: Pushes docs to another repository
         uses: cpina/github-action-push-to-another-repository@main
         if: always()
         env:
@@ -45,33 +53,4 @@ jobs:
           destination-repository-name: 'HtmlActions'
           user-email: s.fart2012@gmail.com
           target-branch: main
-  deplres:
-    runs-on: ubuntu-20.04
-    if: always()
-    needs: tests
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/checkout@v1
-      - name: Copy Results
-        if: always()
-          # trying to save history of previous runs if it is exists
-        run: cp -r $(pwd)/allure-results/. $(pwd)/allure
-      - name: Deploy Results
-        uses: JamesIves/github-pages-deploy-action@3.1.0
-        if: always()
-        with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          BRANCH: master
-          FOLDER: allure-results
-          TARGET_FOLDER: allure
-      - name: Pushes allure-results to another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        if: always()
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.ACCES_TOANOTHER_ACC }}
-        with:
-          source-directory: 'allure'
-          destination-github-username: 'ToActions'
-          destination-repository-name: 'HtmlActions'
-          user-email: s.fart2012@gmail.com
-          target-branch: main
+
