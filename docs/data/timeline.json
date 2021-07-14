@@ -1,112 +1,13 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "should test Password recowery function . Test-Case4",
-      "uid" : "bde61070c3690cee",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626267468099,
-        "stop" : 1626267473379,
-        "duration" : 5280
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : " should print in the console all positions from the careers . Test-Case10",
-      "uid" : "3a8779a1853fa634",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626267515920,
-        "stop" : 1626267518306,
-        "duration" : 2386
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
-      "uid" : "bc9c79b44e66e14e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1626267473379,
-        "stop" : 1626267487217,
-        "duration" : 13838
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
-      "uid" : "9e3d8ab16d2d7ef8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626267487217,
-        "stop" : 1626267511724,
-        "duration" : 24507
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
-      "uid" : "7564bd0f96abcdf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626267511724,
-        "stop" : 1626267515919,
-        "duration" : 4195
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : " homeTask_Lesson_14",
-      "uid" : "40e5dac491a273a0",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626267482159,
-        "stop" : 1626267484740,
-        "duration" : 2581
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "homeTask_Lesson_9",
-      "uid" : "410b45b96ad7b3f0",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626267468098,
-        "stop" : 1626267482158,
-        "duration" : 14060
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
-    "name" : "should check that is Topic text displayed in view port . Test-Case7",
-    "uid" : "460903b4058c398f",
+    "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
+    "uid" : "a6aeffd5cffed239",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626267511724,
-      "stop" : 1626267511724,
+      "start" : 1626268382650,
+      "stop" : 1626268382650,
       "duration" : 0
     },
     "flaky" : false,
@@ -114,51 +15,150 @@
     "parameters" : [ ]
   }, {
     "name" : "should test SignUp function (using header button). Test-Case1",
-    "uid" : "613bced4f109952c",
+    "uid" : "522c3e31fb4e7b73",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626267468098,
-      "stop" : 1626267468098,
+      "start" : 1626268382650,
+      "stop" : 1626268382650,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should test SignUp function (using primary SignUp button). Test-Case2",
-    "uid" : "57dbdf1e426e45a2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1626267468098,
-      "stop" : 1626267468098,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
-    "uid" : "49ced0e2f14f9402",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1626267515920,
-      "stop" : 1626267515920,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should test that user able to chose the plan\"for free\" and register throuth it . Test-Case6",
+      "uid" : "c3e9254c20eac748",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268397480,
+        "stop" : 1626268420331,
+        "duration" : 22851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should test that dropdown menues(Header Menu) is displayed when mouse on it. Test-Case5",
+      "uid" : "3489976a201d8220",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626268386525,
+        "stop" : 1626268397480,
+        "duration" : 10955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should test that filter TypeScript works and first result is relevant . Test-Case8",
+      "uid" : "edab5c2bca9bf1dd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268420331,
+        "stop" : 1626268424171,
+        "duration" : 3840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : " should print in the console all positions from the careers . Test-Case10",
+      "uid" : "2cc4b9440e3c219d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268424171,
+        "stop" : 1626268426458,
+        "duration" : 2287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "should test Password recowery function . Test-Case4",
+      "uid" : "540f5073a5af878f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268382651,
+        "stop" : 1626268386525,
+        "duration" : 3874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
     "name" : "should test SignIn function . Test-Case3",
-    "uid" : "208fc9bdd9d6ef9e",
+    "uid" : "aad04906511b9dc0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1626267468098,
-      "stop" : 1626267468098,
+      "start" : 1626268382650,
+      "stop" : 1626268382650,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "homeTask_Lesson_9",
+      "uid" : "4a06332e845c6d2e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268382650,
+        "stop" : 1626268395177,
+        "duration" : 12527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : " homeTask_Lesson_14",
+      "uid" : "f2ca01891da5f441",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626268395177,
+        "stop" : 1626268397886,
+        "duration" : 2709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : " should test that user able to add registration data through the EnterpriseCloud and EnterpriseServer pages. Test-Case9",
+    "uid" : "c81f0d28d4e79c9e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1626268424171,
+      "stop" : 1626268424171,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should check that is Topic text displayed in view port . Test-Case7",
+    "uid" : "75c94ba2a2a19c22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1626268420331,
+      "stop" : 1626268420331,
       "duration" : 0
     },
     "flaky" : false,
