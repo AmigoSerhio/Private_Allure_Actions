@@ -1,2 +1,1 @@
-﻿# Hi, 
-#This is my first deploy to GHPages by Actions
+﻿# Hi, this is my first deploy to GHPages by Actions
