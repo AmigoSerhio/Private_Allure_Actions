@@ -46,6 +46,7 @@ jobs:
           user-email: s.fart2012@gmail.com
           target-branch: main
   deplres:
+    needs: tests
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
