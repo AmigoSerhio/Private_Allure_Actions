@@ -45,14 +45,6 @@ jobs:
         with:
           name: allure-results
           path: ./allure-results
-      - name: Deploy Results
-        uses: JamesIves/github-pages-deploy-action@3.1.0
-        if: always()
-        with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          BRANCH: master
-          FOLDER: allure-results
-          TARGET_FOLDER: ./docs/allure-results
       - name: Pushes docs to another repository
         uses: cpina/github-action-push-to-another-repository@main
         if: always()
